@@ -3,7 +3,7 @@
       <q-page class="window-width window-height row justify-center items-center">
         <div class="columns">
           <div class="row">
-            <h5 class="text-h5 text-cyan-9 q-my-md">Welcome to Open World</h5>
+            <h5 class="text-h5 text-white q-my-md">Welcome to Open World</h5>
           </div>
           <div class="row">
             <q-card square bordered class="q-pa-lg w-400">

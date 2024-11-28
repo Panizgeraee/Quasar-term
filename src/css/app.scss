@@ -2,8 +2,8 @@
 .auth-background{
     width: 100%;
     height: 100vh;
-    overflow:hidden ;
-    background-image: url(images/soft.jpg);
+    overflow:hidden;
+    background-image: url(images/loginWallpaper.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -11,4 +11,10 @@
 }
 .w-400{
     width: 400px;
+}
+.avatarBox {
+    background-image: radial-gradient(rgb(245,246,240),rgb(2,136,209),rgb(5,72,139));
+    width: 100%;
+    height:300px;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.9);
 }
