@@ -1,4 +1,6 @@
-import {route}from 'quasar/wrappers';
+// C:\Users\PANIZ\Desktop\coding\quasarvue\Quasar\QUASAR\src\routes.ts
+
+import { route } from 'quasar/wrappers';
 import { RouteCallback } from '@quasar/app-vite';
 import { RouteRecordRaw, RouteRecordRedirectOption } from 'vue-router';
 const routes: RouteRecordRaw[] = [
@@ -18,12 +20,13 @@ const routes: RouteRecordRaw[] = [
     ],
   },
   {
-    path:'/dashboard',
+    path: '/dashboard',
     component: () => import('layouts/dashboard/DashboardLayout.vue'),
     children: [
-      { path: 'index',
-        name: 'index',
-        component: () => import('pages/dashboard/IndexPage.vue'),
+      { 
+        path: 'index', 
+        name: 'index', 
+        component: () => import('pages/dashboard/IndexPage.vue') 
        },
        { path: 'search',
         name: 'search',
